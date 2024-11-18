@@ -10,7 +10,7 @@ Another config file that I had to change is the nginx config where I had to add:
 ## Usage
 Run the following command in an empty folder to execute the script I made which will run you through the setup.
 ```shell
-bash <(curl -sSL https://github.com/bliffbot/PePaNDI/releases/latest/pepandi.sh)
+bash <(curl -sSL https://github.com/bliffbot/PePaNDI/releases/latest/download/pepandi.sh)
 ```
 
 **Notes**
