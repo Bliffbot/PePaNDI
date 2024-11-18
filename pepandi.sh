@@ -67,7 +67,7 @@ read -r -p "# Would you like to build the image now? [Y/n] " build
 
 function build_image () {
   echo ""
-  read -r -p "# Specify a name and tag for the Docker image: " image
+  read -r -p "# Specify a name and tag for the Docker image (e.g. pepandi:1.0.0): " image
   echo ""
   echo -e "\033[3mBuilding Docker image..."
   echo ""
